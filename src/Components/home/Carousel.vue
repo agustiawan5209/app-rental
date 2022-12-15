@@ -17,7 +17,7 @@
                         <img :src="PathImage + `car-side.png`" alt="" class="h-max bg-cover w-[50%]">
                         </div>
                         <button type="submit"
-                            class="w-full text-white bg-default-yellow hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-yellow-600 dark:hover:bg-default-yellow dark:focus:ring-yellow-600 transition-colors">Harga</button>
+                            class="w-full text-white bg-default-yellow hover:bg-yellow-600 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-yellow-600 dark:hover:bg-default-yellow dark:focus:ring-yellow-600 transition-colors">Sewa Mobil</button>
                         <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
                             Status Sewa? <a href="#" class="text-defbg-default-yellow hover:underline dark:text-yellow-500">Harga Sewa</a>
                         </div>

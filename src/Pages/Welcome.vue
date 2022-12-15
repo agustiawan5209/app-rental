@@ -51,7 +51,6 @@ window.onscroll = function () { NavbarScroll() };
                                 d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </div>
-
                     <div class="max-w-md">
                         <!--Search form-->
                         <form class="w-full">
@@ -70,8 +69,19 @@ window.onscroll = function () { NavbarScroll() };
                             </div>
                         </form>
                     </div>
+                   <div class="w-full flex justify-between items-center">
+                    
+                    <ul class="flex flex-row gap-10">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Mobil</li>
+                    </ul>
+                    <div>
+                       <router-link :to="{name: 'login'}"  class="focus:outline-none bg-white hover:bg-white focus:ring-4 focus:ring-white font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-white text-default-dark">Masuk</router-link>
+                    </div>
+                   </div>
                 </div>
-
+                
             </div>
         </div>
 
@@ -81,7 +91,7 @@ window.onscroll = function () { NavbarScroll() };
                         class="font-bold text-white">Jasa</span><span class="text-red-500 font-bold">|</span><span
                         class="text-white font-bold text-4xl">Saudagar</span>
                 </h3>
-             
+
             </div>
             <div class=" max-w-xl text-justify font-semibold leading-6">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa dolorum fugiat obcaecati,
@@ -100,7 +110,8 @@ window.onscroll = function () { NavbarScroll() };
     </div>
 
     <footer class="p-4 bg-default-dark shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com/"
+                class="hover:underline">Flowbite™</a>. All Rights Reserved.
         </span>
         <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
             <li>
@@ -117,7 +128,7 @@ window.onscroll = function () { NavbarScroll() };
             </li>
         </ul>
     </footer>
-    
+
 </template>
 <script >
 export default {

@@ -1,14 +1,10 @@
 <template>
-  <WelcomeVue></WelcomeVue>
+  <router-view></router-view>
 </template>
 
 <script>
-import WelcomeVue from './Pages/Welcome.vue'
 
 export default {
   name: 'App',
-  components: {
-    WelcomeVue
-}
 }
 </script>
